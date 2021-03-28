@@ -2,7 +2,7 @@
 
 This repository provides a minimal translation loader for `ngx-translate` using PO files as source.
 
-In order to use it, create a factory function for the `PoHTTPLoader` class:
+In order to use it, create a factory function for the [PoHTTPLoader](PoHTTPLoader.ts) class:
 
 ```
 function createTranslateLoader(http: HttpClient): PoHTTPLoader {
